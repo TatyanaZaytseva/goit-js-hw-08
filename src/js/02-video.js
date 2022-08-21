@@ -1,6 +1,7 @@
 import Player from '@vimeo/player';
-const player = new Player('vimeo-player');
 import throttle from 'lodash.throttle';
+const player = new Player('vimeo-player');
+
 
 const dataCurrentTime = {
 duration: 0,
